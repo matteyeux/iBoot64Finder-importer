@@ -54,6 +54,9 @@ Run iBoot64Finder and redirect output to a file :
 [main]: done!
 ```
 
+Then right clic on the view -> Import iBoot64Finder
+
+![](https://github.com/matteyeux/iBoot64Finder-importer/blob/master/binja.gif?raw=true)
 
 ## Installation Instructions
 
