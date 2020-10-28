@@ -16,7 +16,7 @@ def import_iboot(binaryView):
     iboot_functions = {}
     with open(real_file) as iboot:
         for line in iboot.readlines():
-            if "=" in line:
+            if "=" in line and "base_addr" not in line:
                 iboot_function = line.split()[1]
                 str_addr = line.split()[3]
                 iboot_addr = int(str_addr, 0)
